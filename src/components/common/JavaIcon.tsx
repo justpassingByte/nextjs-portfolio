@@ -1,6 +1,7 @@
 import React from 'react'
 
-const JavaIcon = ({height,width}:any) => {
+import { IconProps } from '@/type'
+const JavaIcon: React.FC<IconProps> = ({ height = "24px", width = "24px" }) => {
   return (
     <svg height={height??"24px"} width={width??"24px"} version="1.1" id="Layer_1" viewBox="0 0 512 512" fill="#000000" stroke="#000000">
 

@@ -1,6 +1,7 @@
 import React from 'react'
 
-const FireBase = ({width,height}:any) => {
+import { IconProps } from '@/type'
+const FireBase: React.FC<IconProps> = ({ height = "24px", width = "24px" }) => {
   return (
     <svg width={width?? "24px"} height={height??"24px"} viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#000000" stroke="#000000">
 

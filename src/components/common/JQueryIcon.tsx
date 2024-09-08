@@ -1,6 +1,7 @@
 import React from 'react'
 
-const JQuery = ({height,width}:any) => {
+import { IconProps } from '@/type'
+const JQueryIcon: React.FC<IconProps> = ({ height = "24px", width = "24px" }) => {
   return (
     <svg height={height ?? "24px"} width={width ?? "24px"} viewBox="0 -198 512 512" version="1.1" fill="#ffffff" stroke="#ffffff">
 
@@ -14,4 +15,4 @@ const JQuery = ({height,width}:any) => {
   )
 }
 
-export default JQuery
+export default JQueryIcon

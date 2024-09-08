@@ -1,6 +1,7 @@
 import React from 'react'
 
-const JspIcon = ({height,width}:any) => {
+import { IconProps } from '@/type'
+const JspIcon: React.FC<IconProps> = ({ height = "24px", width = "24px" }) => {
   return (
     <svg fill="#1368c3" version="1.1" id="Capa_1" height={height ?? "24px"} width={width ?? "24px"} viewBox="0 0 585.918 585.918" stroke="#1368c3">
 

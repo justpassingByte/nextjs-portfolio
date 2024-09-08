@@ -1,6 +1,6 @@
 import React from 'react'
-
-const AndroidIcon = ({height,width}:any) => {
+import { IconProps } from '@/type'
+const AndroidIcon: React.FC<IconProps> = ({ height = "24px", width = "24px" }) => {
   return (
     
     <svg viewBox="0 0 128 128" height={height ?? "24px"} width={width ?? "24px"}>
