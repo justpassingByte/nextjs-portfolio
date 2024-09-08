@@ -1,7 +1,7 @@
 import { ABOUT_SECTION } from '@/data/portfolio'
 import React from 'react'
 
-const escapeHtml = (text:any) => {
+const escapeHtml = (text:string) => {
   return text
     .replace(/'/g, '&apos;')
     .replace(/"/g, '&quot;')
