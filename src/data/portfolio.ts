@@ -1,4 +1,4 @@
-import AndroidIcon from "@/components/common/AndroidIcon"
+// import AndroidIcon from "@/components/common/AndroidIcon"
 import CSSIcon from "@/components/common/CSSIcon"
 import GithubIcon from "@/components/common/GithubIcon"
 import HtmlIcon from "@/components/common/HtmlIcon"
@@ -9,7 +9,7 @@ import MySQLIcon from "@/components/common/MySQLIcon"
 import  NextIcon  from "@/components/common/NextIcon"
 import NodeJsIcon from "@/components/common/NodeJsIcon"
 import ReactIcon from "@/components/common/ReactIcon"
-import SpringBootIcon from "@/components/common/SpringBootIcon"
+// import SpringBootIcon from "@/components/common/SpringBootIcon"
 import TSIcon from "@/components/common/TSIcon"
 import ReduxIcon from "@/components/common/ReduxIcon"
 import StripeIcon from "@/components/common/StripeIcon"
@@ -18,7 +18,7 @@ import JQueryIcon from "@/components/common/JQueryIcon"
 import JspIcon from "@/components/common/JspIcon"
 import JavaIcon from "@/components/common/JavaIcon"
 import FireBaseIcon from "@/components/common/FireBase"
-import { link } from "fs"
+// import { link } from "fs"
 
 export const navBarLink = [
     {
@@ -48,7 +48,7 @@ export const ABOUT_SECTION = {
     name:"Thang",
     title:"WEB DEVELOPER",
     description:"I specialize in end-to-end web and mobile development, combining front-end finesse with back-end prowess to build dynamic and responsive digital solutions.",
-    greeting:'👋'
+    greeting:""
 }
 export const projects = [
     {
